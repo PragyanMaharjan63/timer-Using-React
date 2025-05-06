@@ -5,7 +5,7 @@ import { RiSubtractFill } from "react-icons/ri";
 
 export default function todo() {
   const [todo, setTodo] = useState("");
-  // const [check, setCheck] = useState(false);
+  const [check, setCheck] = useState(false);
   const [task, setTask] = useState(
     JSON.parse(localStorage.getItem("todolist")) || []
   );
@@ -37,6 +37,7 @@ export default function todo() {
       const addTodo = {
         sno: sno,
         todo: title,
+        check: false,
       };
       setTask([...task, addTodo]);
       setTodo("");
@@ -51,7 +52,17 @@ export default function todo() {
             <div className="flex justify-between" key={item.sno}>
               <div className="flex">
                 {/* <MdCheckBoxOutlineBlank className="size-4 my-0.5 mr-1" /> */}
-                <input type="checkbox" className="size-4 my-0.5 mr-2" />
+                <input
+                  type="checkbox"
+                  checked={item.check}
+                  onChange={() => {
+                    const updatedTasks = task.map((t) =>
+                      t.sno === item.sno ? { ...t, check: !t.check } : t
+                    );
+                    setTask(updatedTasks);
+                  }}
+                  className="size-4 my-0.5 mr-2"
+                />
 
                 <p className="border-b-1 w-52 overflow-hidden">{item.todo} </p>
               </div>
