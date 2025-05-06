@@ -14,7 +14,6 @@ export default function todo() {
   }, [task]);
 
   const onDelete = (todo) => {
-    console.log("deleting", todo);
     setTask(
       task.filter((e) => {
         return e !== todo;
@@ -27,8 +26,6 @@ export default function todo() {
     if (title === "" || title === " ") {
       alert("Enter the task");
     } else {
-      console.log(task.length);
-      // console.log(task[0].sno);
       if (task.length === 0) {
         sno = 0;
       } else {
@@ -64,7 +61,9 @@ export default function todo() {
                   className="size-4 my-0.5 mr-2"
                 />
 
-                <p className="border-b-1 w-52 overflow-hidden">{item.todo} </p>
+                <p className="border-b-1 w-52 overflow-hidden">
+                  {item.check ? <s>{item.todo}</s> : item.todo}
+                </p>
               </div>
               <button onClick={() => onDelete(item)}>
                 <RiSubtractFill />
