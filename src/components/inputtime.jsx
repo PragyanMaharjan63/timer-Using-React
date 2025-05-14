@@ -13,8 +13,6 @@ export default function Timer() {
 
   const getTime = (event) => {
     event.preventDefault();
-    // console.log("the hour is ", Hour);
-    // console.log("the Minutes are ", Minutes);
     let Totaltimer = Hour * 60 * 60 + Minutes * 60;
     setTimer(Totaltimer);
     setStart(true);
