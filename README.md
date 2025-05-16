@@ -32,9 +32,7 @@ Check out the live version here: timer-using-react-iota.vercel.app
 
 Clone the repository:
 
-<pre> 
-git clone https://github.com/PragyanMaharjan63/timer-Using-React.git
-</pre>
+`git clone https://github.com/PragyanMaharjan63/timer-Using-React.git`
 
 #### Navigate to the project directory:
 
@@ -44,6 +42,7 @@ cd timer-Using-React
 Install dependencies:
 
 npm install
+```
 
 Run the development server:
 
@@ -67,4 +66,7 @@ timer-Using-React/
 🧪 Usage
 
 Upon launching the app, you'll see the current time displayed in hours, minutes, and seconds. The time updates every second, providing a real-time clock experience.
+
+```
+
 ```
