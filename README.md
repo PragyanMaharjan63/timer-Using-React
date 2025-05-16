@@ -10,6 +10,7 @@ Check out the live version here: [Live demo](https://timer-using-react-iota.verc
 
 ### 🛠️ Features
 
+<pre>
     Real-time clock display with seconds
 
     Responsive design for various screen sizes
@@ -17,9 +18,11 @@ Check out the live version here: [Live demo](https://timer-using-react-iota.verc
     Built using React functional components and hooks
 
     Fast development setup with Vite
+</pre>
 
 ### 🧰 Technologies Used
 
+<pre>
     React
 
     Vite
@@ -27,6 +30,7 @@ Check out the live version here: [Live demo](https://timer-using-react-iota.verc
     JavaScript (ES6+)
 
     CSS
+</pre>
 
 ### 📦 Installation
 
