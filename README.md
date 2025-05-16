@@ -1,4 +1,4 @@
-⏱️ Timer App Using React
+# ⏱️ Timer App Using React
 
 A simple and responsive timer application built with React and Vite. This app displays the current time, updating every second, and serves as a foundational project to understand React hooks and component lifecycle.
 🚀 Live Demo
@@ -6,9 +6,9 @@ A simple and responsive timer application built with React and Vite. This app di
 Check out the live version here: timer-using-react-iota.vercel.app
 📸 Preview
 
-screenshot.png
+![App screenshot](screenshot.png)
 
-🛠️ Features
+### 🛠️ Features
 
     Real-time clock display with seconds
 
@@ -18,7 +18,7 @@ screenshot.png
 
     Fast development setup with Vite
 
-🧰 Technologies Used
+### 🧰 Technologies Used
 
     React
 
@@ -28,7 +28,7 @@ screenshot.png
 
     CSS
 
-📦 Installation
+### 📦 Installation
 
     Clone the repository:
 
@@ -48,7 +48,7 @@ Run the development server:
 
     The app will be available at http://localhost:5173/ by default.
 
-📁 Project Structure
+### 📁 Project Structure
 
 timer-Using-React/
 ├── public/
