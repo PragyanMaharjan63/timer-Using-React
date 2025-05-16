@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function time() {
   const [time, setTime] = useState(new Date());
@@ -6,13 +6,13 @@ export default function time() {
   useEffect(() => {
     let intervaL = setInterval(() => {
       setTime(new Date());
-    }, 60000);
+    }, 1000);
     return () => clearInterval(intervaL);
   }, []);
 
   return (
     <p>
-      {time.getHours()}:{time.getMinutes()}
+      {time.getHours()}:{time.getMinutes()}:{time.getSeconds()}
     </p>
   );
 }
