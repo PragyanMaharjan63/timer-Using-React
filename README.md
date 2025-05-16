@@ -32,17 +32,20 @@ Check out the live version here: timer-using-react-iota.vercel.app
 
 Clone the repository:
 
-<pre> ``` 
+<pre> 
 git clone https://github.com/PragyanMaharjan63/timer-Using-React.git
+</pre>
 
-Navigate to the project directory:
+#### Navigate to the project directory:
+
+<pre>
 
 cd timer-Using-React
 
 Install dependencies:
 
 npm install
-``` </pre>
+ </pre>
 
 Run the development server:
 
