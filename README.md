@@ -66,7 +66,3 @@ timer-Using-React/
 🧪 Usage
 
 Upon launching the app, you'll see the current time displayed in hours, minutes, and seconds. The time updates every second, providing a real-time clock experience.
-
-```
-
-```
