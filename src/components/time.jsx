@@ -5,9 +5,9 @@ export default function time() {
 
   useEffect(() => {
     let intervaL = setInterval(() => {
-      setTime(new Date());
+      setTime(new Date()); //updates the value so it causes the interval to rerender
     }, 1000);
-    return () => clearInterval(intervaL);
+    return () => clearInterval(intervaL); //if there is not clear interval then everytime the component mounts then it will create new interval causing multiple intervals.
   }, []);
 
   return (
