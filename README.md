@@ -50,6 +50,7 @@ Run the development server:
 
 ### 📁 Project Structure
 
+<pre>
 timer-Using-React/
 ├── public/
 │ └── index.html
@@ -60,6 +61,7 @@ timer-Using-React/
 ├── package.json
 ├── vite.config.js
 └── README.md
+</pre>
 
 🧪 Usage
 
