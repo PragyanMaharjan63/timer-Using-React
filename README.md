@@ -1,12 +1,66 @@
-# React + Vite
+⏱️ Timer App Using React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive timer application built with React and Vite. This app displays the current time, updating every second, and serves as a foundational project to understand React hooks and component lifecycle.
+🚀 Live Demo
 
-Currently, two official plugins are available:
+Check out the live version here: timer-using-react-iota.vercel.app
+📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+screenshot.png
 
-## Expanding the ESLint configuration
+🛠️ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Real-time clock display with seconds
+
+    Responsive design for various screen sizes
+
+    Built using React functional components and hooks
+
+    Fast development setup with Vite
+
+🧰 Technologies Used
+
+    React
+
+    Vite
+
+    JavaScript (ES6+)
+
+    CSS
+
+📦 Installation
+
+    Clone the repository:
+
+git clone https://github.com/PragyanMaharjan63/timer-Using-React.git
+
+Navigate to the project directory:
+
+cd timer-Using-React
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+    npm run dev
+
+    The app will be available at http://localhost:5173/ by default.
+
+📁 Project Structure
+
+timer-Using-React/
+├── public/
+│ └── index.html
+├── src/
+│ ├── App.jsx
+│ └── main.jsx
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
+
+🧪 Usage
+
+Upon launching the app, you'll see the current time displayed in hours, minutes, and seconds. The time updates every second, providing a real-time clock experience.
