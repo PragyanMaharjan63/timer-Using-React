@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className="relative bg-[url(./assets/background.jpg)] bg-no-repeat bg-center bg-cover h-screen flex flex-col justify-center items-center space-y-4 transition-all duration-500">
+      <div className="relative bg-[url(./assets/background.jpg)] bg-no-repeat bg-center bg-cover h-svh flex flex-col justify-center items-center space-y-4 transition-all duration-500">
         <div className="flex absolute left-0 top-0 m-4 text-xl bg-amber-200 w-max border-2 border-[#442312] rounded-lg px-3 py-1 font-calsans">
           <Time />
         </div>
